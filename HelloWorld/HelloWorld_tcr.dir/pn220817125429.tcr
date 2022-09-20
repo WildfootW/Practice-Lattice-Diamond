@@ -1,0 +1,12 @@
+#Start recording tcl command: 8/17/2022 11:27:47
+#Project Location: C:/Users/shena/Documents/LATTICE Diamond/HelloWorld; Project name: HelloWorld
+prj_project new -name "HelloWorld" -impl "impl1" -dev LCMXO2-7000HE-4TG144C -synthesis "lse"
+prj_project save
+prj_src add "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src add "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v"
+prj_src syn_sim -src "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v" SimulateOnly
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src add "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/simulation/simulation.spf"
+#Stop recording: 8/17/2022 12:54:29

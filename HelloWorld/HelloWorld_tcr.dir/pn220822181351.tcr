@@ -1,0 +1,11 @@
+#Start recording tcl command: 8/22/2022 17:23:05
+#Project Location: C:/Users/shena/Documents/LATTICE Diamond/HelloWorld; Project name: HelloWorld
+prj_project open "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/HelloWorld.ldf"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Export -impl impl1
+rvl_project new
+rvl_trace add_sig  {counter/enable}
+rvl_trace add_sig  {{counter/counter[31:0]}}
+rvl_trace trc_option SampleClk=fpga_clock
+rvl_project close -force
+#Stop recording: 8/22/2022 18:13:51

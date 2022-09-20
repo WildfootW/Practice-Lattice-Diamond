@@ -1,0 +1,8 @@
+-- all messages logged in file C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/impl1/reveal_error.log
+-- Analyzing Verilog file 'C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v' (VERI-1482)
+C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v(1): INFO: compiling module 'top' (VERI-1018)
+C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v(10): INFO: elaborating module 'top' (VERI-9000)
+C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1798): INFO: elaborating module 'OSCH_uniq_1' (VERI-9000)
+C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v(33): INFO: elaborating module 'slow_counter_uniq_1' (VERI-9000)
+C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v(7): WARNING: port 'SEDSTDBY' remains unconnected for this instance (VERI-1927)

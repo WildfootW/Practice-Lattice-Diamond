@@ -1,0 +1,17 @@
+if {![file exists "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/simulation/simulation.mpf"]} { 
+	project new "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/simulation" simulation
+	project addfile "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v"
+	project addfile "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+C:/Users/shena/Documents/LATTICE Diamond/HelloWorld  -work work  "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v"
+	vlog  +incdir+C:/Users/shena/Documents/LATTICE Diamond/HelloWorld  -work work  "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v"
+} else {
+	project open "C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/simulation/simulation"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo2  testbench
+view wave
+add wave /*
+run 1000ns

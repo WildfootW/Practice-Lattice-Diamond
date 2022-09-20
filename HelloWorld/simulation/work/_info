@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/shena/Documents/LATTICE Diamond/HelloWorld/simulation
+vslow_counter
+Z1 !s110 1660712124
+!i10b 1
+!s100 QBIMHR3U[A`<:[MRcoz:a1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ic7jEg26?J8dgI1C71D2=L1
+R0
+Z3 w1660711565
+Z4 8C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v
+Z5 FC:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v
+!i122 0
+L0 12 22
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OT;L;2020.3;71
+r1
+!s85 0
+31
+Z8 !s108 1660712124.000000
+Z9 !s107 C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/top.v|
+!s101 -O0
+!i113 1
+Z11 o-work work -O0
+Z12 tCvgOpt 0
+vtestbench
+R1
+!i10b 1
+!s100 Tn]]?W95?D?OVM]:iNT6N1
+R2
+I10^T1<gG@Zz]a4NEAV2@K2
+R0
+w1660711972
+8C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v
+FC:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v
+!i122 1
+L0 3 19
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shena/Documents/LATTICE Diamond/HelloWorld/testbench.v|
+!s101 -O0
+!i113 1
+R11
+R12
+vtop
+R1
+!i10b 1
+!s100 AOg@CTzaG>2E2Vm?<9_552
+R2
+InT_]d?X8<@khSN8IQU8E@0
+R0
+R3
+R4
+R5
+!i122 0
+L0 1 10
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
